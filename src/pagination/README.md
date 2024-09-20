@@ -8,7 +8,7 @@
 
 ```js
   import Vue from 'vue';
-  import { Pagination } from 'tanma-design';
+  import { Pagination } from 'tm-design';
   
   Vue.use(Pagination);
 ```

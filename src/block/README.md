@@ -8,7 +8,7 @@
 
 ```js
   import Vue from 'vue';
-  import { Block } from 'tanma-design';
+  import { Block } from 'tm-design';
   
   Vue.use(Block);
 ```

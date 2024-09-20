@@ -8,7 +8,7 @@
 
 ```js
   import Vue from 'vue';
-  import { vTitle } from 'tanma-design';
+  import { vTitle } from 'tm-design';
   
   // 默认注入v-title指令
   Vue.use(vTitle);

@@ -8,7 +8,7 @@
 
 ```js
   import Vue from 'vue';
-  import { OptionalPicker } from 'tanma-design';
+  import { OptionalPicker } from 'tm-design';
   
   Vue.use(OptionalPicker);
 ```

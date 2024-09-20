@@ -8,7 +8,7 @@
 
 ```js
   import Vue from 'vue';
-  import { Steps, Step } from 'tanma-design';
+  import { Steps, Step } from 'tm-design';
   
   Vue.use(Steps);
   Vue.use(Step);

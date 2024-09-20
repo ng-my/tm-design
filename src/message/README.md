@@ -8,7 +8,7 @@
 
 ```js
   import Vue from 'vue';
-  import { Message } from 'tanma-design';
+  import { Message } from 'tm-design';
   
   Vue.use(Message);
 ```
@@ -27,14 +27,14 @@
 
 ### 全局方法
 
-tanma-design 为 Vue.prototype 添加了全局方法 `$tmMessage`。因此在 vue instance 中可以采用本页面中的方式调用 Message。
+tm-design 为 Vue.prototype 添加了全局方法 `$tmMessage`。因此在 vue instance 中可以采用本页面中的方式调用 Message。
 
 ### 单独引用
 
 单独引入 Message：
 
 ```js
-import { Message } from 'tanma-design';
+import { Message } from 'tm-design';
 ```
 
 此时调用方法为 `Message(options)`。我们也为每个 type 定义了各自的方法，如 `Message.success(options)`。并且可以调用 `Message.closeAll()` 手动关闭所有实例。

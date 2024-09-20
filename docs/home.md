@@ -2,36 +2,36 @@
 
 ### 介绍
 
-通过本章节你可以了解到 tanma-design 的安装方法和基本使用姿势。
+通过本章节你可以了解到 tm-design 的安装方法和基本使用姿势。
 
 ## 安装
 
 ### 通过 npm 安装
 
-在现有项目中使用 tanma-design 时，可以通过 `npm` 或 `yarn` 进行安装：
+在现有项目中使用 tm-design 时，可以通过 `npm` 或 `yarn` 进行安装：
 
 ```bash
-npm i tanma-design -S
+npm i tm-design -S
 ```
 
 ### 通过 cdn 安装
 
-使用 tanma-design 最简单的方法是直接在 html 文件中引入 CDN 链接。
+使用 tm-design 最简单的方法是直接在 html 文件中引入 CDN 链接。
 
 ```html
-<!-- 引入element-ui和tanma-design样式文件 -->
+<!-- 引入element-ui和tm-design样式文件 -->
 <link 
   rel="stylesheet" 
   href="https://unpkg.com/element-ui@2.13.0/lib/theme-chalk/index.css"
 >
 <link
   rel="stylesheet" 
-  href="https://cdn.jsdelivr.net/npm/tanma-design/lib/index.css"
+  href="https://cdn.jsdelivr.net/npm/tm-design/lib/index.css"
 >
-<!-- 引入 Vue 、element-ui和tanma-design 的 JS 文件 -->
+<!-- 引入 Vue 、element-ui和tm-design 的 JS 文件 -->
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6/dist/vue.min.js"></script>
 <script src="https://unpkg.com/element-ui@2.13.0/lib/index.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tanma-design/lib/tanma-design.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tm-design/lib/tm-design.min.js"></script>
 
 <body>
   <div id="app">
@@ -53,11 +53,11 @@ npm i tanma-design -S
 
 #### 免费 CDN
 
-你可以通过以下免费 CDN 服务来使用 tanma-design:
+你可以通过以下免费 CDN 服务来使用 tm-design:
 
-+ [jsdelivr](https://www.jsdelivr.com/package/npm/tanma-design)
++ [jsdelivr](https://www.jsdelivr.com/package/npm/tm-design)
 
-+ [unpkg](https://unpkg.com/browse/tanma-design/)
++ [unpkg](https://unpkg.com/browse/tm-design/)
 
 注意：免费 CDN 一般用于制作原型或个人小型项目，不推荐在企业生产环境中使用免费 CDN。
 
@@ -76,8 +76,8 @@ npm i tanma-design -S
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
-import tanmaDesign from 'tanma-design';
-import 'tanma-design/lib/index.less';
+import tanmaDesign from 'tm-design';
+import 'tm-design/lib/index.less';
 
 Vue.use(tanmaDesign);
 Vue.use(ElementUI);
@@ -110,7 +110,7 @@ npm i babel-plugin-import -D
     [
       "import",
       {
-        "libraryName": "tanma-design",
+        "libraryName": "tm-design",
         "libraryDirectory": "es",
         "style": true,
         "camel2DashComponentName": false
@@ -122,15 +122,15 @@ npm i babel-plugin-import -D
 
 #### 3. 引入组件
 
-接着你可以在代码中直接引入 tanma-design 组件，插件会自动将代码转化为按需引入的形式。
+接着你可以在代码中直接引入 tm-design 组件，插件会自动将代码转化为按需引入的形式。
 
 ```js
 // 原始代码
-import { Button } from 'tanma-design';
+import { Button } from 'tm-design';
 
 // 编译后代码
-import Button from 'tanma-design/es/button';
-import 'tanma-design/es/button/style';
+import Button from 'tm-design/es/button';
+import 'tm-design/es/button/style';
 ```
 
 ### 手动按需引入组件
@@ -139,11 +139,11 @@ import 'tanma-design/es/button/style';
 
 ```js
 // 引入组件脚本
-import Button from 'tanma-design/es/button/index';
+import Button from 'tm-design/es/button/index';
 
 // 引入组件样式
 // 若组件没有样式文件，则无须引入
-import 'tanma-design/es/button/style/index';
+import 'tm-design/es/button/style/index';
 ```
 
 #### 完整组件列表和引入方式
@@ -182,7 +182,7 @@ import {
   Step,
   Message,
   Block
-} from 'tanma-design';
+} from 'tm-design';
 
 Vue.use(Avatar);
 Vue.use(Button);

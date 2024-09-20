@@ -8,7 +8,7 @@
 
 ```js
   import Vue from 'vue';
-  import { TagPro } from 'tanma-design';
+  import { TagPro } from 'tm-design';
   
   Vue.use(TagPro);
 ```

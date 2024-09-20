@@ -2,15 +2,15 @@
 
 ### 介绍
 
-tanma-design 中现有的公共方法介绍以及使用方式
+tm-design 中现有的公共方法介绍以及使用方式
 
 ### 引入
   
 ```javascript
-  import * as tools from 'tanma-design/es/util';
+  import * as tools from 'tm-design/es/util';
   Vue.prototype.$tools = tools;
   
-  import {deepClone} from 'tanma-design/es/util';
+  import {deepClone} from 'tm-design/es/util';
 ```
 
 ### getRootCss

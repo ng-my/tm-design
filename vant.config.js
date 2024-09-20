@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'tanma-design',
+  name: 'tm-design',
   build: {
     css: {
       preprocessor: 'less',
@@ -11,7 +11,7 @@ module.exports = {
     namedExport: true,
   },
   site: {
-    title: 'tanma-design',
+    title: 'tm-design',
     // logo: './logo.png',
     logo: 'https://dev.tanmarket.cn/site/logo.png',
     hideSimulator: true,

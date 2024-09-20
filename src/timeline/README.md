@@ -8,7 +8,7 @@
 
 ```js
   import Vue from 'vue';
-  import { Timeline, TimelineItem } from 'tanma-design';
+  import { Timeline, TimelineItem } from 'tm-design';
   
   Vue.use(Timeline);
   Vue.use(TimelineItem);
