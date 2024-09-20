@@ -1,6 +1,6 @@
 const { resolve } = require('path');
 module.exports = {
-  mode: 'development',
+  mode: 'production', // development
   module: {
     rules: [
       {        

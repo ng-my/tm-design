@@ -2,7 +2,7 @@ const { resolve } = require('path');
 const CreateDirStructure = require('./plugins/createDirStructure');
 
 module.exports = {
-  mode: 'development',
+  mode: 'production', // development
   plugins:[
     new CreateDirStructure({
       name: 'block',
