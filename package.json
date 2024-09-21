@@ -1,6 +1,6 @@
 {
-  "name": "tm-design",
-  "version": "1.0.0",
+  "name": "tianmao-design",
+  "version": "1.6.0",
   "description": "Web UI Components build on Vue",
   "main": "lib/tm-design.js",
   "style": "lib/index.css",
