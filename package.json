@@ -4,7 +4,7 @@
   "description": "Web UI Components build on Vue",
   "main": "lib/tm-design.js",
   "style": "lib/index.css",
-  "repository": "https://github.com/caoyq0521/tanma-ui.git",
+  "repository": "https://github.com/ng-my/tm-design.git",
   "bugs": {
     "url": "https://github.com/caoyq0521/tanma-ui/issues"
   },
@@ -23,7 +23,7 @@
     "build-local-site": "vant-cli build-site",
     "create": "webpack --config webpack.create.js"
   },
-  "author": "tanma fe",
+  "author": "yanghongqing",
   "license": "MIT",
   "keywords": [
     "ui",

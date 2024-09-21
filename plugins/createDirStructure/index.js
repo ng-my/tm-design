@@ -1,8 +1,6 @@
 const { writeFileSync, mkdirSync, statSync } = require('fs');
 const createFileContent = require('./createFileContent');
 
-
-
 class CreateDirStructure {
   constructor({ name, path = 'src' }) {
     if(!name) {
