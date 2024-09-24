@@ -9,6 +9,10 @@
   </div>
 </template>
 <script>
+import Vue from 'vue';
+import {RadioGroup, RadioButton} from 'element-ui';
+Vue.use(RadioGroup);
+Vue.use(RadioButton);
 export default {
   data () {
     return {

@@ -1,4 +1,4 @@
-// import "element-ui/lib/theme-chalk/tree.css"
+import "element-ui/lib/theme-chalk/tree.css"
 import Tree from './src/tree.vue';
 
 Tree.install = function(Vue) {

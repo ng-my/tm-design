@@ -7,7 +7,10 @@
   </div>
 </template>
 <script>
+import Vue from 'vue';
+import { Progress } from 'element-ui';
 import { getRootCss } from "../util"
+Vue.use(Progress);
 
 export default {
   name: 'tmProgress',

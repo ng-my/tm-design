@@ -25,6 +25,11 @@
 </template>
 
 <script>
+  import Vue from 'vue';
+  import { Tooltip } from 'element-ui';
+
+  Vue.use(Tooltip);
+
   export default {
     name: "tmTip",
     props: {

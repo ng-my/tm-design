@@ -60,6 +60,13 @@
   </tm-dialog>
 </template>
 <script>
+import Vue from 'vue'
+import { 
+  Input,
+  Tooltip
+} from 'element-ui'
+Vue.use(Input);
+Vue.use(Tooltip);
 export default {
   name: 'tmDeptTree',
   props: {
