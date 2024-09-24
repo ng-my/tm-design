@@ -1,7 +1,7 @@
 const { resolve } = require('path');
 
-module.exports = {
-  mode: 'production', // development
+const config = {
+  mode: 'development',
   module: {
     rules: [
       {        
@@ -41,3 +41,18 @@ module.exports = {
     'element-ui': 'ElementUI'
   }
 }
+
+// module.exports = config;
+module.exports = (env, argv) => {
+  config.mode = env.mode;
+  if (config.mode === 'development') {
+    console.log(argv, '--development--', env);
+  }
+
+  if (config.mode === 'production') {
+    console.log(argv, '==production==', env);
+  }
+
+  console.log("🚀 ~ config:", config)
+  return config;
+};
