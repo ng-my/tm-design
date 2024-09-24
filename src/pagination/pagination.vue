@@ -84,12 +84,6 @@
 </template>
 
 <script>
-  import Vue from 'vue';
-  import { Select, Option } from 'element-ui';
-
-  Vue.use(Select);
-  Vue.use(Option);
-
   // 正常模式
   const MODE_NORMAL = 'normal';
   // 简单模式
